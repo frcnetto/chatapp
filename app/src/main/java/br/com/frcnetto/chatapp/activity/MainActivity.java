@@ -8,13 +8,17 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import br.com.frcnetto.chatapp.R;
 import br.com.frcnetto.chatapp.adapter.MessageAdapter;
+import br.com.frcnetto.chatapp.callback.UpdateMessagesCallback;
+import br.com.frcnetto.chatapp.callback.SendMessageCallback;
 import br.com.frcnetto.chatapp.model.Message;
 import br.com.frcnetto.chatapp.service.ChatService;
+import retrofit2.Call;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
     private ListView messagesList;
@@ -38,12 +42,18 @@ public class MainActivity extends AppCompatActivity {
         messagesList.setAdapter(adapter);
         sendBtn = (FloatingActionButton) findViewById(R.id.bt_send);
         final EditText newMessage = (EditText) findViewById(R.id.et_newmsg);
-        service = new ChatService(this);
-        service.messageListener();
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(getString(R.string.base_url))
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        service = retrofit.create(ChatService.class);
+        setMessageListener();
         sendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new ChatService(MainActivity.this).sendMessage(new Message(1, newMessage.getText().toString()));
+                service.sendMessage(
+                        new Message(1, newMessage.getText().toString()))
+                        .enqueue(new SendMessageCallback());
                 newMessage.setText("");
             }
         });
@@ -53,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
         messages.add(message);
         MessageAdapter adapter = new MessageAdapter(messages, getApplicationContext());
         messagesList.setAdapter(adapter);
-        service.messageListener();
+        setMessageListener();
+    }
+
+    public void setMessageListener(){
+        Call<Message> call = service.messageListener();
+        call.enqueue(new UpdateMessagesCallback(this));
     }
 }
