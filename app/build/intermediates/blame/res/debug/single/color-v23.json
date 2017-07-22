@@ -36,6 +36,10 @@
         "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/color-v23/abc_tint_default.xml"
     },
     {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/frcnetto/.android/build-cache/b9fa624e2fa71fc7fe80763a089c6b75860934bf/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
         "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/color-v23/abc_tint_seek_thumb.xml"
     }

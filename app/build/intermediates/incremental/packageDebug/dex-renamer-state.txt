@@ -1,0 +1,7 @@
+#Sat Jul 22 15:36:17 BRT 2017
+base.0=/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7db1dcde0115b8827423fbf9a6d8a3a0cca81c2e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac8d6d78f5fee2377299612bbd09cbf74938606c/classes.dex
+base.1=/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac8d6d78f5fee2377299612bbd09cbf74938606c
+file.0=/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7db1dcde0115b8827423fbf9a6d8a3a0cca81c2e/classes.dex

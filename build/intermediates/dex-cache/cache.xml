@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/.android/build-cache/b9fa624e2fa71fc7fe80763a089c6b75860934bf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_807ad4468811bdbc3261b5bb3878fb9ac5ea8fb2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1c55e8e766a3e1390ba9ff6c18db927d07be1b5f">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac8d6d78f5fee2377299612bbd09cbf74938606c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/.android/build-cache/c5ed21c3e4d586161d78865ffbc5efa696aded4e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_baf93cc7c644e87c55a05064a30c101541915bd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/.android/build-cache/06f474f29c1f1b7c7894d552bbc8556d734235c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5a5ec2473f78329b338f6873712adf27f9b9c26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7db1dcde0115b8827423fbf9a6d8a3a0cca81c2e/classes.dex" />
+    </item>
+
+</items>
