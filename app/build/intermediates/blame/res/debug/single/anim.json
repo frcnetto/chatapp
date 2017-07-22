@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    }
+]

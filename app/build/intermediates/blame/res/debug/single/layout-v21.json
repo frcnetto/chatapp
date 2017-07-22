@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout-v21/notification_action.xml"
+    }
+]

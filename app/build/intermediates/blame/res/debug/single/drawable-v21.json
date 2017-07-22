@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]
