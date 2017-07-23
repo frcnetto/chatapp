@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jul 22 20:27:16 BRT 2017
+#Sat Jul 22 21:24:01 BRT 2017
 210.set=ANDROID_RESOURCE
 282.file=/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 14.set=ANDROID_RESOURCE

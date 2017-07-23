@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/frcnetto/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.11/95037eaee68aa48021511972e9db9ba29916e1c9/dagger-2.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="95037eaee68aa48021511972e9db9ba29916e1c9">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.11_82f9cca4e839d14fe6ac60b89e344f3f1df58d64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/frcnetto/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar"
         jumboMode="true"
         optimize="true"
@@ -48,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/frcnetto/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_d9610c229fc2e30a189b86cc5c3287c993b0e2ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/frcnetto/.android/build-cache/b9fa624e2fa71fc7fe80763a089c6b75860934bf/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,21 +66,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="1c55e8e766a3e1390ba9ff6c18db927d07be1b5f">
-        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac8d6d78f5fee2377299612bbd09cbf74938606c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/frcnetto/.android/build-cache/c5ed21c3e4d586161d78865ffbc5efa696aded4e/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
         <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_baf93cc7c644e87c55a05064a30c101541915bd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_5012e6845f40002b0176bfbfc839ef043ab4dafe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_d9610c229fc2e30a189b86cc5c3287c993b0e2ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f233fc7a19fa698a9299cbf8efbba86850f04e19">
+        <dex dex="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac8d6d78f5fee2377299612bbd09cbf74938606c/classes.dex" />
     </item>
     <item
         is-multidex="true"

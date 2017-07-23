@@ -6,28 +6,34 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500766655264"
+    timestamp="1500769433692"
     token="3562960632609098205"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="289" />
+        duration="3486" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="84" />
+        duration="105" />
     <task
         name="verifier"
-        duration="2" />
+        duration="3" />
 
     <artifact
-        location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
         location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/outputs/apk/app-debug.apk"
@@ -76,13 +82,19 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500766655264"
+        timestamp="1500769433692"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/outputs/apk/app-debug.apk"
