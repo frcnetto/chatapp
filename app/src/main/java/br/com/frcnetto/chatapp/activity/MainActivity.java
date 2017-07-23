@@ -1,9 +1,7 @@
 package br.com.frcnetto.chatapp.activity;
 
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -15,21 +13,24 @@ import javax.inject.Inject;
 import br.com.frcnetto.chatapp.R;
 import br.com.frcnetto.chatapp.adapter.MessageAdapter;
 import br.com.frcnetto.chatapp.app.ChatApplication;
-import br.com.frcnetto.chatapp.callback.UpdateMessagesCallback;
 import br.com.frcnetto.chatapp.callback.SendMessageCallback;
+import br.com.frcnetto.chatapp.callback.UpdateMessagesCallback;
 import br.com.frcnetto.chatapp.component.ChatComponent;
 import br.com.frcnetto.chatapp.model.Message;
 import br.com.frcnetto.chatapp.service.ChatService;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import retrofit2.Call;
 
 public class MainActivity extends AppCompatActivity {
-    private ListView             messagesList;
-    private List<Message>        messages;
-    private MessageAdapter       adapter;
-    private FloatingActionButton sendBtn;
-    private EditText             newMessage;
+    @BindView(R.id.lv_messages) protected ListView messagesList;
+    @BindView(R.id.et_newmsg)   protected EditText newMessage;
 
-    @Inject ChatService service;
+    private List<Message>  messages;
+    private MessageAdapter adapter;
+
+    @Inject ChatService   service;
     private ChatComponent component;
 
     @Override
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        ButterKnife.bind(this);
         initializeVars();
 
         ChatApplication app = (ChatApplication) getApplication();
@@ -49,23 +51,19 @@ public class MainActivity extends AppCompatActivity {
 
         messagesList.setAdapter(adapter);
         setMessageListener();
-        sendBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                service.sendMessage(
-                        new Message(1, newMessage.getText().toString()))
-                        .enqueue(new SendMessageCallback());
-                newMessage.setText("");
-            }
-        });
+    }
+
+    @OnClick(R.id.bt_send)
+    public void sendMessage(){
+        service.sendMessage(
+                new Message(1, newMessage.getText().toString()))
+                .enqueue(new SendMessageCallback());
+        newMessage.setText("");
     }
 
     private void initializeVars(){
-        messagesList = (ListView) findViewById(R.id.lv_messages);
         messages = new ArrayList<>();
         adapter = new MessageAdapter(messages, getApplicationContext());
-        sendBtn = (FloatingActionButton) findViewById(R.id.bt_send);
-        newMessage = (EditText) findViewById(R.id.et_newmsg);
     }
 
     public void updateMessageList(Message message){

@@ -71,6 +71,7 @@ MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/frcne
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/frcnetto/.android/build-cache/dd805c0cebe72f6ecf7245242ee41faca06110ea/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/frcnetto/.android/build-cache/116c875c28a02ef91eab8384fe019175e794af01/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/frcnetto/.android/build-cache/5f25f88aa4d22f136c0930a5eb84ceeb096b8544/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.jakewharton:butterknife:8.7.0] /home/frcnetto/.android/build-cache/4b691ba496c836eae43adf485fc1ad532705dc6a/output/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/frcnetto/.android/build-cache/3fef6b0b4f236001ad21304e1dc089b44a32c803/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.0.0-alpha1] /home/frcnetto/.android/build-cache/b9fa624e2fa71fc7fe80763a089c6b75860934bf/output/AndroidManifest.xml:23:9-59

@@ -20,12 +20,12 @@
         "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
         "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/frcnetto/.android/build-cache/1df18f107c17bc4abbddea8e01001973db5d0fe1/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/home/frcnetto/AndroidStudioProjects/Chatapp/chatapp/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
